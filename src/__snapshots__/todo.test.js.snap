@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`summarizeTasks формирует корректную сводку для пустого списка задач 1`] = `
+{
+  "active": 0,
+  "done": 0,
+  "titles": [],
+  "total": 0,
+}
+`;
+
+exports[`summarizeTasks формирует сводку по списку задач и соответствует снимку 1`] = `
+{
+  "active": 2,
+  "done": 1,
+  "titles": [
+    "Купить продукты",
+    "Сделать уборку",
+    "Позвонить маме",
+  ],
+  "total": 3,
+}
+`;
