@@ -78,4 +78,5 @@ npm run test:coverage
 
 ![Таблица покрытия тестами Jest](coverage.png)
 
+#грррпонедельник
 ---
